@@ -1,0 +1,92 @@
+.step-counter {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.counter-display {
+  margin-bottom: 20px;
+}
+
+.counter-display h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-increment {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-increment:hover {
+  background-color: #45a049;
+}
+
+.btn-decrement {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-decrement:hover {
+  background-color: #da190b;
+}
+
+.btn-reset {
+  background-color: #2196f3;
+  color: white;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.btn-reset:hover {
+  background-color: #0b7dda;
+}
+
+.statistics {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.stat-item {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.history-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+  justify-content: center;
+}
+
+.history-item {
+  background-color: #e3f2fd;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #1976d2;
+}
+
