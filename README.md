@@ -1,24 +1,10 @@
-# Lab 06: React Router & Navigation
+# lab — учебные проекты
 
-- **task1/** — Lab 6.1: Multi-page app (createBrowserRouter, Layout, Outlet, NavLink, 404).
-- **task2/** — Lab 6.2: Dynamic routes (courses/:id), useParams, useLoaderData, useSearchParams, errorElement.
+Репозиторий: [github.com/ownes11/lab](https://github.com/ownes11/lab)
 
-## Запуск на GitHub
+- **Lab 03** (корневые `task1/`, `task2/`) — React Components and Hooks.
+- **Lab 06** (`Lab_06/`) — React Router & Navigation.
+  - `Lab_06/task1/` — Lab 6.1: Multi-page app (createBrowserRouter, Layout, Outlet, NavLink, 404).
+  - `Lab_06/task2/` — Lab 6.2: Dynamic routes, useParams, useLoaderData, useSearchParams, errorElement.
 
-1. Создай **новый репозиторий** на [github.com](https://github.com/new): имя, например, `lab_06`, без README (у тебя уже есть коммиты).
-2. В папке проекта выполни (подставь свой **USERNAME** и имя репозитория **REPO**):
-
-```bash
-cd c:\Users\HUAWEI\Desktop\lab_06
-git remote add origin https://github.com/USERNAME/REPO.git
-git push -u origin main
-```
-
-Если репозиторий уже создан по SSH:
-
-```bash
-git remote add origin git@github.com:USERNAME/REPO.git
-git push -u origin main
-```
-
-3. При запросе логина используй свой GitHub-аккаунт (или токен вместо пароля).
+Запуск Lab 06: `cd Lab_06/task1` или `cd Lab_06/task2`, затем `npm install` и `npm run dev`.
