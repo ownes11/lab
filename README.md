@@ -13,6 +13,17 @@
 
 Подробности: [task1/README.md](task1/README.md), [task2/README.md](task2/README.md)
 
+## Lab 05: TypeScript & Props Validation
+
+**Структура:** `Lab_05/`
+
+- **Lab_05/task1/** — Lab 5.1: Typed Components (UserCard, SkillList, types.ts)
+- **Lab_05/task2/** — Lab 5.2: Typing State & Event Handlers (SearchApp, UserCard)
+
+Запуск: `cd Lab_05/task1` или `cd Lab_05/task2`, затем `npm install` и `npm run dev`.
+
+Подробности: [Lab_05/task1/README.md](Lab_05/task1/README.md), [Lab_05/task2/README.md](Lab_05/task2/README.md). Отчёт по использованию ИИ: [Lab_05/AI_REPORT.md](Lab_05/AI_REPORT.md).
+
 ## Lab 06: React Router & Navigation
 
 **Структура:** `Lab_06/`
