@@ -1,0 +1,56 @@
+.user-profile-app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.controls {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.controls h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #2196f3;
+  border-radius: 4px;
+  background-color: white;
+  color: #2196f3;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btn.active {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btn-refresh {
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+.btn-refresh:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
