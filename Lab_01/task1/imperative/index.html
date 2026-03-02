@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 1.1 - Imperative Highlight Toggle (jQuery)</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <style>
+    .highlight {
+      background: yellow;
+    }
+  </style>
+</head>
+<body>
+  <h1>Imperative Highlight Toggle</h1>
+  <button id="toggleBtn">Toggle Highlight</button>
+  <p id="targetParagraph">Click the button to toggle the highlight on this paragraph.</p>
+
+  <script>
+    // Imperative approach: Direct DOM manipulation with jQuery
+    $(document).ready(function () {
+      $('#toggleBtn').on('click', function () {
+        $('#targetParagraph').toggleClass('highlight');
+      });
+    });
+  </script>
+</body>
+</html>

@@ -2,6 +2,17 @@
 
 Репозиторий: [github.com/ownes11/lab](https://github.com/ownes11/lab)
 
+## Lab 01: Why React? — Declarative UI & Project Setup
+
+**Структура:** `Lab_01/`
+
+- **Lab_01/task1/** — Lab 1.1: Declarative vs Imperative (jQuery + React highlight toggle)
+- **Lab_01/task2/** — Lab 1.2: React Project Setup & Counter App
+
+Запуск: `cd Lab_01/task1/imperative` — открыть index.html в браузере; `cd Lab_01/task1/declarative` или `cd Lab_01/task2`, затем `npm install` и `npm run dev`.
+
+Подробности: [Lab_01/README.md](Lab_01/README.md), [Lab_01/task1/README.md](Lab_01/task1/README.md), [Lab_01/task2/README.md](Lab_01/task2/README.md). Отчёт по использованию ИИ: [Lab_01/AI_REPORT.md](Lab_01/AI_REPORT.md).
+
 ## Lab 03: React Components and Hooks
 
 **Структура:** корневые `task1/`, `task2/`
